@@ -1,6 +1,6 @@
 <?php 
 
-namespace abdulsametsahin\EpubParser;
+namespace abdulsametsahin;
 
 /**
 *  A sample class

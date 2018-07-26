@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "abdulsametsahin\\EpubParser\\": "src/"
+            "abdulsametsahin\\": "src/"
         }
     }
 }
