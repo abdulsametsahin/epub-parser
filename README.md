@@ -1,15 +1,20 @@
-Composer Library Template
-=========================
+# **Epub Parser for PHP**
 
-If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
+You can read content of an epub file.
 
-Features
---------
+> It's under development. Don't use it on production.
 
-* PSR-4 autoloading compliant structure
-* Unit-Testing with PHPUnit
-* Comprehensive Guides and tutorial
-* Easy to use to any framework or even a plain php file
+### Installation
 
+    composer require abdulsametsahin/epub-parser
 
-I encourage that you put more information on this readme file instead of leaving it as is. See [How to make a README file](http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/) for more info.
+### Example
+
+    <?php
+    include  "vendor/autoload.php";
+	
+	use abdulsametsahin\EpubParser\EpubParser;
+	$test =  new  EpubParser;
+	$test->load('hunger-games');
+	var_dump($test->getCover());
+	?>
