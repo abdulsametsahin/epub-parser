@@ -13,7 +13,7 @@ You can read content of an epub file.
     <?php
     include  "vendor/autoload.php";
 	
-	use abdulsametsahin\EpubParser\EpubParser;
+	use abdulsametsahin\EpubParser;
 	$test =  new  EpubParser;
 	$test->load('hunger-games');
 	var_dump($test->getCover());
