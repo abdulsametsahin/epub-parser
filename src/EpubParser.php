@@ -3,7 +3,7 @@
 namespace abdulsametsahin;
 
 /**
-*  A Epub class to get content of an epub.
+*  An Epub class to get content of an epub.
 *
 *  @author Abdulsamet ŞAHİN
 */
