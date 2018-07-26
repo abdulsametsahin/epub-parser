@@ -1,0 +1,21 @@
+{
+    "name": "abdulsametsahin/epub-parser",
+    "description": "Epub parser for reading epubs.",
+    "keywords": ["epub", "reader", "parser", "viewer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdulsamet ŞAHİN",
+            "email": "abdulsametsah@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "abdulsametsahin\\EpubParser\\": "src/"
+        }
+    }
+}
