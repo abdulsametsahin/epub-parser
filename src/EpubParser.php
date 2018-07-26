@@ -3,10 +3,7 @@
 namespace abdulsametsahin;
 
 /**
-*  A sample class
-*
-*  Use this section to define what this class is doing, the PHPDocumentator will use this
-*  to automatically generate an API documentation using this information.
+*  A Epub class to get content of an epub.
 *
 *  @author Abdulsamet ŞAHİN
 */
